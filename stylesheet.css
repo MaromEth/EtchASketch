@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: stretch;
+    /*height: 800px;*/
+}
+div[tag]{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    flex-grow: 1;
+}
+[tag] > [id]{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+div[selected]{
+    background-color: black;
+}
