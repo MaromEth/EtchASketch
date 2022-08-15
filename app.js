@@ -6,14 +6,14 @@ let cellHeightString = `${cellHeight}px`
 var cellIdentifier = document.querySelectorAll('cell');
 
 
-for(let i = 1; i<numberOfCells; i++){
+for(let i = 0; i<numberOfCells; i++){
     var tag = document.createElement("div");
     tag.setAttribute('id', `row`)
     tag.setAttribute('tag', `parent`)
     tag.setAttribute('height',`${cellHeightString}` )
     element.appendChild(tag);
     var elements = document.getElementById(`row`)
-    for(let j = 1; j<numberOfCells; j++){
+    for(let j = 0; j<numberOfCells; j++){
         var tags = document.createElement("div");
         tags.setAttribute('id', `cell`)
         tags.setAttribute('cell', `yes`)
