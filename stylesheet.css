@@ -1,24 +1,31 @@
-#container {
+div#container {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
-    align-content: stretch;
-    /*height: 800px;*/
-}
-div[tag]{
-    display: flex;
-    flex-direction: row;
-    height: 60px;
-    width: 100%;
-    flex-grow: 1;
-}
-[tag] > [id]{
-    display: flex;
-    height: 60px;
-    flex-direction: row;
-    flex-grow: 1;
-}
+    
+    height: 960px;
+    width: 960px;
+    border-color: red;
+    border-style: solid;
 
+}
+/*
+div[tag*="parent"]{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    flex-grow: 1;
+ 
+}
+*/
+/*
+div[cell*="yes"]{
+
+    flex-direction: row;
+    flex-grow: 1;
+    
+    
+}
+*/
 div[selected]{
     background-color: black;
 }
