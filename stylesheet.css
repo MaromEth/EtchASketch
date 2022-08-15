@@ -1,31 +1,12 @@
 div#container {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
     height: 960px;
     width: 960px;
     border-color: red;
     border-style: solid;
+}
 
-}
-/*
-div[tag*="parent"]{
-    display: flex;
-    flex-direction: row;
-    width: 960px;
-    flex-grow: 1;
- 
-}
-*/
-/*
-div[cell*="yes"]{
-
-    flex-direction: row;
-    flex-grow: 1;
-    
-    
-}
-*/
 div[selected]{
     background-color: black;
 }
